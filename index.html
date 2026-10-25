@@ -10,23 +10,98 @@
 
 <body class="min-h-screen bg-[#101044]">
     <header class="p-5">
-        <nav class="flex place-content-evenly invisible md:visible">
+        <nav class="flex place-content-evenly invisible sm:visible">
             <a href="#about" class="text-white font-anta">About</a>
-            <a href="" class="text-white font-anta">Skills</a>
+            <a href="#skill" class="text-white font-anta">Skills</a>
             <a href="" class="text-white font-anta">Projects</a>
             <a href="" class="text-white font-anta">Contacts</a>
         </nav>
     </header>
 
-    <section id="about" class="flex bg-white p-6 rounded-2xl gap-5 max-w-3/4 mx-auto h-45 overflow-auto">
-            <img src="src/0fd739332011311036acb852993e24c3.jpg" class="rounded-full size-15 sm:size-20 md:size-30" alt="">
-            <div class="flex-col"> 
-                <h1 class="text-2xl font-extrabold font-roboto"> Hello world! </h1>
-                <div>
-                    <p> My name is Nabil. I am a computer science student at EPFC (Brussels, Belgium). I'm Passionate about technology and Software Development. <br> This portfolio showcases my journey, one project at a time. </p>
+    <main class="flex flex-col gap-5">
+        <!-- Section 1: about -->
+        <section id="about" class="flex bg-white p-6 rounded-2xl gap-5 max-w-3/4 mx-auto h-50 overflow-auto">
+                <img src="src/about.jpg" class="rounded-full size-15 sm:size-20 md:size-30" alt="">
+                <div class="flex-col"> 
+                    <h1 class="text-2xl font-extrabold"> Hello world! </h1>
+                    <div>
+                        <p> My name is Nabil. I am a computer science student at EPFC (Brussels, Belgium). 
+                            I'm Passionate about technology and Software Development. 
+                            <br> This portfolio showcases my journey, one project at a time. </p>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Section 2: skills -->
+        <section id="skill" class="flex bg-white p-6 rounded-2xl gap-5 max-w-11/12 lg:max-w-3/4 self-center h-max mb-5 lg:h-75 overflow-auto">
+            <img src="src/skills.png" class="rounded-full size-15 sm:size-20 md:size-30" alt="">
+            <div class="flex flex-col gap-2"> 
+                <h1 class="text-2xl font-extrabold"> My skills </h1>
+                <div class="flex flex-col lg:flex-row gap-5">
+                    <div>
+                        <p class="bg-cyan-300 p-2 rounded-2xl"> Ubuntu server </p>
+                        <ul class="list-disc list-outside pl-5 italic">                            
+                            <li> Bash commands </li> 
+                            <li> User rights management </li>
+                            <li> Virtual hosting </li>
+                            <li> Bash scripts </li>
+                            <li> Backup scripts </li>
+                            <li> Cronjob </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="bg-blue-300 p-2 rounded-2xl"> Databases </p>
+                        <ul class="list-disc list-outside pl-5 italic">
+                            <li> MySQL </li> 
+                            <li> PostgreSQL </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="bg-red-400 p-2 rounded-2xl"> CSS </p>
+                        <ul class="list-disc list-outside pl-5 italic">
+                            <li> Bootstrap </li> 
+                            <li> Tailwind </li>
+                        </ul> 
+                    </div>
+
+                    <div>
+                        <p class="bg-fuchsia-300 p-2 rounded-2xl"> Network Cisco </p>
+                        <ul class="list-disc list-inside italic"> 
+                            <li> Switch </li> 
+                            <li> Routers </li>
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <p class="bg-amber-200 p-2 rounded-2xl"> Java </p>
+                    </div>
+                    
+                    <div>
+                        <p class="bg-black text-white p-2 rounded-2xl"> PHP </p>
+                    </div>
+                    
+                    <div>
+                        <p class="bg-emerald-500 p-2 rounded-2xl"> HTML </p>
+                    </div>
+                    
+                    
+                    
                 </div>
             </div>
-    </section>
+        </section>
+
+        <!-- Section 3: Projects -->
+
+        <!-- Section 4: Contacts -->
+        
+    </main>
+    
+
+    
+
 
 </body>
 </html>

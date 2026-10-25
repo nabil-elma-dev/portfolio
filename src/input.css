@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
 @import "tailwindcss";
 
-
 @theme {
     --font-anta: "anta", sans-serif
 }
