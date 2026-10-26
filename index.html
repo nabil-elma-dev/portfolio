@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 
-<body class="min-h-screen bg-[#101044]">
-    <header class="p-5">
-        <nav class="flex place-content-evenly invisible sm:visible">
-            <a href="#about" class="text-white font-anta">About</a>
-            <a href="#skill" class="text-white font-anta">Skills</a>
-            <a href="" class="text-white font-anta">Projects</a>
-            <a href="" class="text-white font-anta">Contacts</a>
+<body class="body">
+    <header>
+        <nav class="nav_box">
+            <a href="#about" class="nav_item">About</a>
+            <a href="#skill" class="nav_item">Skills</a>
+            <a href="" class="nav_item">Projects</a>
+            <a href="" class="nav_item">Contacts</a>
         </nav>
     </header>
 
-    <main class="flex flex-col gap-5">
+    <main class="main">
         <!-- Section 1: about -->
-        <section id="about" class="flex bg-white p-6 rounded-2xl gap-5 max-w-3/4 mx-auto h-50 overflow-auto">
-                <img src="src/about.jpg" class="rounded-full size-15 sm:size-20 md:size-30" alt="">
-                <div class="flex-col"> 
-                    <h1 class="text-2xl font-extrabold"> Hello world! </h1>
+        <section id="about" class="about">
+                <img src="src/about.jpg" class="img" alt="">
+                <div class="flex flex-col gap-2"> 
+                    <h1> Hello world! </h1>
                     <div>
                         <p> My name is Nabil. I am a computer science student at EPFC (Brussels, Belgium). 
                             I'm Passionate about technology and Software Development. 
@@ -33,14 +33,14 @@
         </section>
 
         <!-- Section 2: skills -->
-        <section id="skill" class="flex bg-white p-6 rounded-2xl gap-5 max-w-11/12 lg:max-w-3/4 self-center h-max mb-5 lg:h-75 overflow-auto">
-            <img src="src/skills.png" class="rounded-full size-15 sm:size-20 md:size-30" alt="">
+        <section id="skill" class="skill">
+            <img src="src/skills.png" class="img" alt="">
             <div class="flex flex-col gap-2"> 
-                <h1 class="text-2xl font-extrabold"> My skills </h1>
-                <div class="flex flex-col lg:flex-row gap-5">
+                <h1> My skills </h1>
+                <div class="skill_box">
                     <div>
-                        <p class="bg-cyan-300 p-2 rounded-2xl"> Ubuntu server </p>
-                        <ul class="list-disc list-outside pl-5 italic">                            
+                        <p class="skill_name bg-cyan-300"> Ubuntu server </p>
+                        <ul class="ul_skills">                            
                             <li> Bash commands </li> 
                             <li> User rights management </li>
                             <li> Virtual hosting </li>
@@ -51,24 +51,24 @@
                     </div>
 
                     <div>
-                        <p class="bg-blue-300 p-2 rounded-2xl"> Databases </p>
-                        <ul class="list-disc list-outside pl-5 italic">
+                        <p class="skill_name bg-blue-300"> Databases </p>
+                        <ul class="ul_skills">
                             <li> MySQL </li> 
                             <li> PostgreSQL </li>
                         </ul>
                     </div>
 
                     <div>
-                        <p class="bg-red-400 p-2 rounded-2xl"> CSS </p>
-                        <ul class="list-disc list-outside pl-5 italic">
+                        <p class="skill_name bg-red-400"> CSS </p>
+                        <ul class="ul_skills">
                             <li> Bootstrap </li> 
                             <li> Tailwind </li>
                         </ul> 
                     </div>
 
                     <div>
-                        <p class="bg-fuchsia-300 p-2 rounded-2xl"> Network Cisco </p>
-                        <ul class="list-disc list-inside italic"> 
+                        <p class="skill_name bg-fuchsia-300"> Network Cisco </p>
+                        <ul class="ul_skills"> 
                             <li> Switch </li> 
                             <li> Routers </li>
                         </ul>
@@ -76,15 +76,15 @@
 
 
                     <div>
-                        <p class="bg-amber-200 p-2 rounded-2xl"> Java </p>
+                        <p class="skill_name bg-amber-200"> Java </p>
                     </div>
                     
                     <div>
-                        <p class="bg-black text-white p-2 rounded-2xl"> PHP </p>
+                        <p class="skill_name bg-black text-white"> PHP </p>
                     </div>
                     
                     <div>
-                        <p class="bg-emerald-500 p-2 rounded-2xl"> HTML </p>
+                        <p class="skill_name bg-emerald-500"> HTML </p>
                     </div>
                     
                     

@@ -4,3 +4,86 @@
 @theme {
     --font-anta: "anta", sans-serif
 }
+
+/* Tags */
+h1 { @apply 
+    text-2xl 
+    font-extrabold
+}
+
+
+/* Classes */
+.body { @apply
+    min-h-screen 
+    bg-[#101044] 
+    pt-3
+}
+
+
+.nav_box { @apply
+    flex 
+    place-content-evenly
+}
+
+.nav_item { @apply 
+    bg-cyan-600 hover:bg-amber-400 
+    rounded-2xl 
+    px-3 md:px-6 
+    py-1 md:py-2 
+    text-white 
+    font-anta; }
+
+.main { @apply
+    flex 
+    flex-col 
+    gap-5 pt-3
+}
+
+.about { @apply 
+    flex
+    bg-white 
+    p-6 
+    rounded-2xl 
+    gap-5 
+    max-w-3/4 
+    mx-auto 
+    h-50 
+    overflow-auto;
+}
+
+.skill_box { @apply 
+    flex 
+    flex-col lg:flex-row 
+    gap-5
+}
+
+.ul_skills { @apply 
+    list-disc 
+    list-outside 
+    pl-5 
+    italic
+}
+
+.skill_name { @apply
+    p-2 
+    rounded-2xl
+}
+
+.skill { @apply
+    flex 
+    bg-white 
+    p-6 
+    rounded-2xl 
+    gap-5 
+    max-w-4/5
+    lg:max-w-3/4 
+    mx-auto
+    h-200 lg:h-75
+    mb-5 
+    overflow-scroll
+}
+
+.img {@apply 
+    rounded-full 
+    size-15 sm:size-20 md:size-30
+}
